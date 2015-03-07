@@ -6,10 +6,6 @@
 @import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
 @import url("font-awesome.min.css");
 
-h1  {
-		text-shadow: 5px 8px 5px #424242;
-	}
-
 /* Basic */
 
 	body, input, select, textarea {
@@ -40,7 +36,7 @@ h1  {
 		-o-transition: border-color 0.2s ease-in-out;
 		-ms-transition: border-color 0.2s ease-in-out;
 		transition: border-color 0.2s ease-in-out;
-		/* border-bottom: dotted 1px; */
+		border-bottom: dotted 1px;
 		color: inherit;
 		outline: 0;
 		text-decoration: none;
