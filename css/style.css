@@ -8,7 +8,7 @@
 
 #header h1  {
 
-	text-shadow:5px 8px 5px #290000 !important;
+	text-shadow:4px 4px 4px rgb(42, 42, 42) !important;
 }
 
 /* Basic */
@@ -54,6 +54,7 @@
 
 	.icon {
 		position: relative;
+		color:#424242;
 	}
 
 		.icon:before {
@@ -93,11 +94,11 @@
 /* BG */
 
 	#bg {
-		-moz-animation: bg 163s linear infinite;
-		-webkit-animation: bg 163s linear infinite;
-		-o-animation: bg 163s linear infinite;
-		-ms-animation: bg 163s linear infinite;
-		animation: bg 163s linear infinite;
+		-moz-animation: bg 180s linear infinite alternate;
+		-webkit-animation: bg 180s linear infinite alternate;
+		-o-animation: bg 180s linear infinite alternate;
+		-ms-animation: bg 180s linear infinite alternate;
+		animation: bg 180s linear infinite alternate;
 		-moz-backface-visibility: hidden;
 		-webkit-backface-visibility: hidden;
 		-o-backface-visibility: hidden;
@@ -109,7 +110,10 @@
 		-ms-transform: translate3d(0,0,0);
 		transform: translate3d(0,0,0);
 		/* Set your background with this */
-		background: #161320 url("images/bg.jpg") bottom left;
+
+		background:
+					 linear-gradient(#161320, transparent 10%),
+					 #161320 url("images/bg.jpg") bottom left;
 		background-repeat: repeat-x;
 		height: 100% !important;
 		left: 0;
@@ -219,12 +223,16 @@
 			font-weight: 900;
 			letter-spacing: -0.035em;
 			line-height: 1em;
+			color:rgb(69, 81, 53);
+			opacity:.95;
 		}
 
 		#header p {
 			font-size: 1.25em;
 			margin: 0.75em 0 0.25em 0;
-			opacity: 0.75;
+			opacity: 0.90;
+			color:rgb(125, 145, 49);
+			text-shadow:4px 4px 4px rgb(42, 42, 42) !important;
 		}
 
 		#header nav {
@@ -350,7 +358,7 @@
 					-ms-transition: all 0.2s ease-in-out;
 					transition: all 0.2s ease-in-out;
 					border-radius: 100%;
-					border: solid 1px white;
+					border: solid 1px #424242;
 					display: block;
 					font-size: 1.75em;
 					height: 2.5em;
@@ -367,7 +375,7 @@
 
 					#header nav a:hover:before {
 						background-color: rgba(255, 255, 255, 0.175);
-						color: white;
+						color:rgb(125, 145, 49);
 					}
 
 				#header nav a:active {
@@ -377,7 +385,7 @@
 
 					#header nav a:active:before {
 						background-color: rgba(255, 255, 255, 0.35);
-						color: white;
+						color:rgb(125, 145, 49);
 					}
 
 				#header nav a span {
