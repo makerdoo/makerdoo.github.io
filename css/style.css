@@ -11,7 +11,7 @@
 	text-shadow:4px 4px 4px rgb(42, 42, 42) !important;
 }
 
-@media screen and (max-width: 735px) {
+@media screen and (max-width: 1024px) {
     
 
     video {
@@ -23,27 +23,14 @@
     }
 
 
-    @media screen and (max-device-width: 735px) {
-        
-
-        video {
-            display: none;
-        }
-
-        .icon {
-            color: #f1eded !important;
-        }
-    }
-
-
     #header nav a:before  {border:solid 1px #f1eded !important;}
-
+    
     #bg {
-        -moz-animation: bg 30s linear infinite alternate;
-        -webkit-animation: bg 30s linear infinite alternate;
-        -o-animation: bg 30s linear infinite alternate;
-        -ms-animation: bg 30s linear infinite alternate;
-        animation: bg 30s linear infinite alternate;
+        -moz-animation: bg 20s linear infinite alternate;
+        -webkit-animation: bg 20s linear infinite alternate;
+        -o-animation: bg 20s linear infinite alternate;
+        -ms-animation: bg 20s linear infinite alternate;
+        animation: bg 20s linear infinite alternate;
         -moz-backface-visibility: hidden;
         -webkit-backface-visibility: hidden;
         -o-backface-visibility: hidden;
@@ -65,8 +52,7 @@
         opacity: 1;
         position: fixed;
         bottom: 0;
-        
-        
+   
     }
 
     @-moz-keyframes bg {
@@ -166,7 +152,7 @@
 
     #bg {
         background-size: auto 100%;
-        min-width: 2250px !important;
+        min-width: 6500px !important;
     }
 }
 
