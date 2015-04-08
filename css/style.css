@@ -42,7 +42,7 @@
         -ms-transform: translate3d(0,0,0);
         transform: translate3d(0,0,0);
         /* Set your background with this */
-        background: linear-gradient(#161320, transparent 10%), #161320 url("images/bg.jpg") bottom left;
+        background: linear-gradient(#161320, transparent 10%), #161320 url("images/1static-sunset.jpg") bottom left;
         background-repeat: no-repeat;
         min-height: 100%;
         min-width:100%;
