@@ -11,20 +11,16 @@
 	text-shadow:4px 4px 4px rgb(42, 42, 42) !important;
 }
 
-
-
-@media screen and (max-device-width: 735px) {
-       
-        
-        video {
-            display: none;
-        }
-
-        .icon {
-            color: #f1eded !important;
-        }
+@media screen and (max-width: 735px) {
     
-    
+
+    video {
+        display: none;
+    }
+
+    .icon {
+        color: #f1eded !important;
+    }
 
 
     #header nav a:before  {border:solid 1px #f1eded !important;}
