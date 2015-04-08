@@ -24,21 +24,8 @@
 
 
     @media screen and (max-device-width: 735px) {
-        
-
-        video {
-            display: none;
-        }
-
-        .icon {
-            color: #f1eded !important;
-        }
-    }
-
-
-    #header nav a:before  {border:solid 1px #f1eded !important;}
-
-    #bg {
+       
+        #bg {
         -moz-animation: bg 30s linear infinite alternate;
         -webkit-animation: bg 30s linear infinite alternate;
         -o-animation: bg 30s linear infinite alternate;
@@ -69,6 +56,20 @@
         
     }
 
+
+        video {
+            display: none;
+        }
+
+        .icon {
+            color: #f1eded !important;
+        }
+    }
+
+
+    #header nav a:before  {border:solid 1px #f1eded !important;}
+
+    
     @-moz-keyframes bg {
         0% {
             -moz-transform: translate3d(0,0,0);
