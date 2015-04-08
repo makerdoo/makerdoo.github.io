@@ -11,7 +11,7 @@
 	text-shadow:4px 4px 4px rgb(42, 42, 42) !important;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 800px) {
     
 
     video {
