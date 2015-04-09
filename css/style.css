@@ -26,11 +26,11 @@
     #header nav a:before  {border:solid 1px #f1eded !important;}
     
     #bg {
-        -moz-animation: bg 20s linear infinite alternate;
-        -webkit-animation: bg 20s linear infinite alternate;
-        -o-animation: bg 20s linear infinite alternate;
-        -ms-animation: bg 20s linear infinite alternate;
-        animation: bg 20s linear infinite alternate;
+        -moz-animation: bg 20s ease-in-out infinite alternate;
+        -webkit-animation: bg 20s ease-in-out infinite alternate;
+        -o-animation: bg 20s ease-in-out infinite alternate;
+        -ms-animation: bg 20s ease-in-out infinite alternate;
+        animation: bg 20s ease-in-out infinite alternate;
         -moz-backface-visibility: hidden;
         -webkit-backface-visibility: hidden;
         -o-backface-visibility: hidden;
@@ -152,7 +152,7 @@
 
     #bg {
         background-size: auto 100%;
-        /*min-width: 6500px !important;*/
+        /*min-width: 6700px !important; */
     }
 }
 
@@ -184,7 +184,7 @@ video {
 
 	body {
 		background: white;
-		overflow: hidden;
+		overflow: visible;
 	}
 
 		body.loading * {
