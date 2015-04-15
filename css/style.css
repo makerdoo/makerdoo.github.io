@@ -12,6 +12,16 @@
 }
 
 
+
+
+/*  #^#^#^#^#^#^#^#^#^#^#^#^#^#^#^#^#^#^
+    #^#^#^#^#^ MEDIA QUERIES  ^#^#^#^#^#
+    #^#^#^#^#^#^#^#^#^#^#^#^#^#^#^#^#^#^
+*/
+
+@media screen and (max-width: 640px) {
+    
+    
  #bg {
         -moz-animation: bg 20s linear infinite alternate;
         -webkit-animation: bg 20s linear infinite alternate;
@@ -42,14 +52,6 @@
    
     }
 
-
-/*  #^#^#^#^#^#^#^#^#^#^#^#^#^#^#^#^#^#^
-    #^#^#^#^#^ MEDIA QUERIES  ^#^#^#^#^#
-    #^#^#^#^#^#^#^#^#^#^#^#^#^#^#^#^#^#^
-*/
-
-@media screen and (max-width: 640px) {
-    
 
     video {
         display: none;
@@ -170,6 +172,37 @@
 
 
 @media screen and (max-width: 1024px) {
+
+	
+ #bg {
+        -moz-animation: bg 20s linear infinite alternate;
+        -webkit-animation: bg 20s linear infinite alternate;
+        -o-animation: bg 20s linear infinite alternate;
+        -ms-animation: bg 20s linear infinite alternate;
+        animation: bg 20s linear infinite alternate;
+        -moz-backface-visibility: hidden;
+        -webkit-backface-visibility: hidden;
+        -o-backface-visibility: hidden;
+        -ms-backface-visibility: hidden;
+        backface-visibility: hidden;
+        -moz-transform: translate3d(0,0,0);
+        -webkit-transform: translate3d(0,0,0);
+        -o-transform: translate3d(0,0,0);
+        -ms-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+        /* Set your background with this */
+        background: linear-gradient(#161320, transparent 10%), #161320 url("images/1static-sunset.jpg") bottom left;
+        background-repeat: repeat-x;
+        min-height: 100%;
+        min-width:100%;
+        width:auto;
+        height:100%;
+        left: 0;
+        opacity: 1;
+        position: fixed;
+        bottom: 0;
+   
+    }
     
 
     video {
