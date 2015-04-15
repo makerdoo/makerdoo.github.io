@@ -11,7 +11,44 @@
 	text-shadow:4px 4px 4px rgb(42, 42, 42) !important;
 }
 
-@media screen and (max-width: 1024px) {
+
+ #bg {
+        -moz-animation: bg 20s linear infinite alternate;
+        -webkit-animation: bg 20s linear infinite alternate;
+        -o-animation: bg 20s linear infinite alternate;
+        -ms-animation: bg 20s linear infinite alternate;
+        animation: bg 20s linear infinite alternate;
+        -moz-backface-visibility: hidden;
+        -webkit-backface-visibility: hidden;
+        -o-backface-visibility: hidden;
+        -ms-backface-visibility: hidden;
+        backface-visibility: hidden;
+        -moz-transform: translate3d(0,0,0);
+        -webkit-transform: translate3d(0,0,0);
+        -o-transform: translate3d(0,0,0);
+        -ms-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+        /* Set your background with this */
+        background: linear-gradient(#161320, transparent 10%), #161320 url("images/1static-sunset.jpg") bottom left;
+        background-repeat: repeat-x;
+        min-height: 100%;
+        min-width:100%;
+        width:auto;
+        height:100%;
+        left: 0;
+        opacity: 1;
+        position: fixed;
+        bottom: 0;
+   
+    }
+
+
+/*  #^#^#^#^#^#^#^#^#^#^#^#^#^#^#^#^#^#^
+    #^#^#^#^#^ MEDIA QUERIES  ^#^#^#^#^#
+    #^#^#^#^#^#^#^#^#^#^#^#^#^#^#^#^#^#^
+*/
+
+@media screen and (max-width: 640px) {
     
 
     video {
@@ -25,35 +62,7 @@
 
     #header nav a:before  {border:solid 1px #f1eded !important;}
     
-    #bg {
-        -moz-animation: bg 20s ease-in-out infinite alternate;
-        -webkit-animation: bg 20s ease-in-out infinite alternate;
-        -o-animation: bg 20s ease-in-out infinite alternate;
-        -ms-animation: bg 20s ease-in-out infinite alternate;
-        animation: bg 20s ease-in-out infinite alternate;
-        -moz-backface-visibility: hidden;
-        -webkit-backface-visibility: hidden;
-        -o-backface-visibility: hidden;
-        -ms-backface-visibility: hidden;
-        backface-visibility: hidden;
-        -moz-transform: translate3d(0,0,0);
-        -webkit-transform: translate3d(0,0,0);
-        -o-transform: translate3d(0,0,0);
-        -ms-transform: translate3d(0,0,0);
-        transform: translate3d(0,0,0);
-        /* Set your background with this */
-        background: linear-gradient(#161320, transparent 10%), #161320 url("images/1static-sunset.jpg") bottom left;
-        background-repeat: no-repeat;
-        min-height: 100%;
-        min-width:100%;
-        width:auto;
-        height:100%;
-        left: 0;
-        opacity: 1;
-        position: fixed;
-        bottom: 0;
    
-    }
 
     @-moz-keyframes bg {
         0% {
@@ -65,11 +74,11 @@
         }
 
         100% {
-            -moz-transform: translate3d(-700px,0,0);
-            -webkit-transform: translate3d(-700px,0,0);
-            -o-transform: translate3d(-700px,0,0);
-            -ms-transform: translate3d(-700px,0,0);
-            transform: translate3d(-700px,0,0);
+            -moz-transform: translate3d(-200px,0,0);
+            -webkit-transform: translate3d(-200px,0,0);
+            -o-transform: translate3d(-200px,0,0);
+            -ms-transform: translate3d(-200px,0,0);
+            transform: translate3d(-200px,0,0);
             
         }
     }
@@ -84,11 +93,11 @@
         }
 
         100% {
-            -moz-transform: translate3d(-700px,0,0);
-            -webkit-transform: translate3d(-700px,0,0);
-            -o-transform: translate3d(-700px,0,0);
-            -ms-transform: translate3d(-700px,0,0);
-            transform: translate3d(-700px,0,0);
+            -moz-transform: translate3d(-200px,0,0);
+            -webkit-transform: translate3d(-200px,0,0);
+            -o-transform: translate3d(-200px,0,0);
+            -ms-transform: translate3d(-200px,0,0);
+            transform: translate3d(-200px,0,0);
            
         }
     }
@@ -103,11 +112,11 @@
         } 
 
     	 100% { 
-    	 	-moz-transform: translate3d(-700px,0,0); 
-    	 	-webkit-transform: translate3d(-700px,0,0); 
-    	 	-o-transform: translate3d(-700px,0,0); 
-    	 	-ms-transform: translate3d(-700px,0,0); 
-    	 	transform: translate3d(-700px,0,0);
+    	 	-moz-transform: translate3d(-200px,0,0); 
+    	 	-webkit-transform: translate3d(-200px,0,0); 
+    	 	-o-transform: translate3d(-200px,0,0); 
+    	 	-ms-transform: translate3d(-200px,0,0); 
+    	 	transform: translate3d(-200px,0,0);
     	 	
     	}
     }
@@ -122,11 +131,11 @@
         }
 
         100% {
-            -moz-transform: translate3d(-700px,0,0);
-            -webkit-transform: translate3d(-700px,0,0);
-            -o-transform: translate3d(-700px,0,0);
-            -ms-transform: translate3d(-700px,0,0);
-            transform: translate3d(-700px,0,0);
+            -moz-transform: translate3d(-200px,0,0);
+            -webkit-transform: translate3d(-200px,0,0);
+            -o-transform: translate3d(-200px,0,0);
+            -ms-transform: translate3d(-200px,0,0);
+            transform: translate3d(-200px,0,0);
             
         }
     }
@@ -141,11 +150,11 @@
         }
 
         100% {
-            -moz-transform: translate3d(-700px,0,0);
-            -webkit-transform: translate3d(-700px,0,0);
-            -o-transform: translate3d(-700px,0,0);
-            -ms-transform: translate3d(-700px,0,0);
-            transform: translate3d(-700px,0,0);
+            -moz-transform: translate3d(-200px,0,0);
+            -webkit-transform: translate3d(-200px,0,0);
+            -o-transform: translate3d(-200px,0,0);
+            -ms-transform: translate3d(-200px,0,0);
+            transform: translate3d(-200px,0,0);
            
         }
     }
@@ -155,6 +164,134 @@
         /*min-width: 6700px !important; */
     }
 }
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+    
+
+    video {
+        display: none;
+    }
+
+    .icon {
+        color: #f1eded !important;
+    }
+
+
+    #header nav a:before  {border:solid 1px #f1eded !important;}
+    
+    
+
+    @-moz-keyframes bg {
+        0% {
+            -moz-transform: translate3d(0,0,0);
+            -webkit-transform: translate3d(0,0,0);
+            -o-transform: translate3d(0,0,0);
+            -ms-transform: translate3d(0,0,0);
+            transform: translate3d(0,0,0);
+        }
+
+        100% {
+            -moz-transform: translate3d(-500px,0,0);
+            -webkit-transform: translate3d(-500px,0,0);
+            -o-transform: translate3d(-500px,0,0);
+            -ms-transform: translate3d(-500px,0,0);
+            transform: translate3d(-500px,0,0);
+            
+        }
+    }
+
+    @-webkit-keyframes bg {
+        0% {
+            -moz-transform: translate3d(0,0,0);
+            -webkit-transform: translate3d(0,0,0);
+            -o-transform: translate3d(0,0,0);
+            -ms-transform: translate3d(0,0,0);
+            transform: translate3d(0,0,0);
+        }
+
+        100% {
+            -moz-transform: translate3d(-500px,0,0);
+            -webkit-transform: translate3d(-500px,0,0);
+            -o-transform: translate3d(-500px,0,0);
+            -ms-transform: translate3d(-500px,0,0);
+            transform: translate3d(-500px,0,0);
+           
+        }
+    }
+
+    @-o-keyframes bg { 
+    	0% { 
+    		-moz-transform: translate3d(0,0,0); 
+    		-webkit-transform: translate3d(0,0,0); 
+    		-o-transform: translate3d(0,0,0); 
+    		-ms-transform: translate3d(0,0,0); 
+    		transform: translate3d(0,0,0);
+        } 
+
+    	 100% { 
+    	 	-moz-transform: translate3d(-500px,0,0); 
+    	 	-webkit-transform: translate3d(-500px,0,0); 
+    	 	-o-transform: translate3d(-500px,0,0); 
+    	 	-ms-transform: translate3d(-500px,0,0); 
+    	 	transform: translate3d(-500px,0,0);
+    	 	
+    	}
+    }
+
+    @-ms-keyframes bg {
+        0% {
+            -moz-transform: translate3d(0,0,0);
+            -webkit-transform: translate3d(0,0,0);
+            -o-transform: translate3d(0,0,0);
+            -ms-transform: translate3d(0,0,0);
+            transform: translate3d(0,0,0);
+        }
+
+        100% {
+            -moz-transform: translate3d(-500px,0,0);
+            -webkit-transform: translate3d(-500px,0,0);
+            -o-transform: translate3d(-500px,0,0);
+            -ms-transform: translate3d(-500px,0,0);
+            transform: translate3d(-500px,0,0);
+            
+        }
+    }
+
+    @keyframes bg {
+        0% {
+            -moz-transform: translate3d(0,0,0);
+            -webkit-transform: translate3d(0,0,0);
+            -o-transform: translate3d(0,0,0);
+            -ms-transform: translate3d(0,0,0);
+            transform: translate3d(0,0,0);
+        }
+
+        100% {
+            -moz-transform: translate3d(-500px,0,0);
+            -webkit-transform: translate3d(-500px,0,0);
+            -o-transform: translate3d(-500px,0,0);
+            -ms-transform: translate3d(-500px,0,0);
+            transform: translate3d(-500px,0,0);
+           
+        }
+    }
+
+    #bg {
+        background-size: auto 100%;
+        /*min-width: 6700px !important; */
+    }
+}
+
+
+/*  #^#^#^#^#^#^#^#^#^#^#^#^#^#^#^#^#^#^
+    #^#^#^#^#^      OTHER     ^#^#^#^#^#
+    #^#^#^#^#^#^#^#^#^#^#^#^#^#^#^#^#^#^
+*/
+
 
 
 video { 
@@ -196,11 +333,11 @@ video {
 		}
 
 	a {
-		-moz-transition: border-color 0.2s ease-in-out;
-		-webkit-transition: border-color 0.2s ease-in-out;
-		-o-transition: border-color 0.2s ease-in-out;
-		-ms-transition: border-color 0.2s ease-in-out;
-		transition: border-color 0.2s ease-in-out;
+		-moz-transition: border-color 0.2s linear;
+		-webkit-transition: border-color 0.2s linear;
+		-o-transition: border-color 0.2s linear;
+		-ms-transition: border-color 0.2s linear;
+		transition: border-color 0.2s linear;
 		color: inherit;
 		outline: 0;
 		text-decoration: none;
@@ -358,11 +495,11 @@ video {
 		}
 
 			#header nav li {
-				-moz-animation: nav-icons 0.5s ease-in-out forwards;
-				-webkit-animation: nav-icons 0.5s ease-in-out forwards;
-				-o-animation: nav-icons 0.5s ease-in-out forwards;
-				-ms-animation: nav-icons 0.5s ease-in-out forwards;
-				animation: nav-icons 0.5s ease-in-out forwards;
+				-moz-animation: nav-icons 0.5s linear forwards;
+				-webkit-animation: nav-icons 0.5s linear forwards;
+				-o-animation: nav-icons 0.5s linear forwards;
+				-ms-animation: nav-icons 0.5s linear forwards;
+				animation: nav-icons 0.5s linear forwards;
 				-moz-backface-visibility: hidden;
 				-webkit-backface-visibility: hidden;
 				-o-backface-visibility: hidden;
@@ -470,11 +607,11 @@ video {
 			}
 
 				#header nav a:before {
-					-moz-transition: all 0.2s ease-in-out;
-					-webkit-transition: all 0.2s ease-in-out;
-					-o-transition: all 0.2s ease-in-out;
-					-ms-transition: all 0.2s ease-in-out;
-					transition: all 0.2s ease-in-out;
+					-moz-transition: all 0.2s linear;
+					-webkit-transition: all 0.2s linear;
+					-o-transition: all 0.2s linear;
+					-ms-transition: all 0.2s linear;
+					transition: all 0.2s linear;
 					border-radius: 100%;
 					border: solid 1px #424242;
 					display: block;
