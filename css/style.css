@@ -72,6 +72,7 @@
 
 
     #header nav a:before  {border:solid 1px #f1eded !important;}
+    #header nav a:hover:before  {border:solid 1px rgb(125, 145, 49) !important;}
        
    
 
@@ -259,7 +260,7 @@
     }
 
         #header h1 {
-            font-size: 3.35em;
+            font-size: 2.35em;
             font-weight: 700;
             letter-spacing: -0.035em;
             line-height: 1em;
@@ -268,7 +269,7 @@
         }
 
         #header p {
-            font-size: 1.25em;
+            font-size: 1.0em;
             margin: 0.75em 0 0.25em 0;
             opacity: 0.90;
             color:rgb(125, 145, 49);
@@ -304,7 +305,7 @@
                 width: 1.5em;
             }
 
-                
+
                 #header nav li:nth-child(1) {
                     -moz-animation-delay: 2.5s;
                     -webkit-animation-delay: 2.5s;
@@ -635,6 +636,7 @@
 
 
     #header nav a:before  {border:solid 1px #f1eded !important;}
+    #header nav a:hover:before  {border:solid 1px rgb(125, 145, 49) !important;}
     
     /* Header */
     @-moz-keyframes header { 0% { -moz-transform: translate3d(0,1em,0); -webkit-transform: translate3d(0,1em,0); -o-transform: translate3d(0,1em,0); -ms-transform: translate3d(0,1em,0); transform: translate3d(0,1em,0); opacity: 0; } 100% { -moz-transform: translate3d(0,0,0); -webkit-transform: translate3d(0,0,0); -o-transform: translate3d(0,0,0); -ms-transform: translate3d(0,0,0); transform: translate3d(0,0,0); opacity: 1; } }
