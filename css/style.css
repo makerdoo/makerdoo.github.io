@@ -61,14 +61,18 @@
         color: #f1eded !important;
         margin:0 5px;
         padding:0;
-        font-size:.75em;
+        font-size:.5em;
         text-align: center;
+
+    }
+    .icon:hover  {
+        color:rgb(125, 145, 49);
 
     }
 
 
     #header nav a:before  {border:solid 1px #f1eded !important;}
-    
+       
    
 
     @-moz-keyframes bg {
@@ -249,7 +253,7 @@
         opacity: 0;
         position: relative;
         text-align: center;
-        top: -1em;
+        top: 0em;
         vertical-align: middle;
         width: 90%;
     }
@@ -272,7 +276,7 @@
         }
 
         #header nav {
-            margin: 1.5em 0 0 0;
+            margin: 1.5em .25em 0 0;
         }
 
             #header nav li {
@@ -292,14 +296,15 @@
                 -ms-transform: translate3d(0,0,0);
                 transform: translate3d(0,0,0);
                 display: inline-block;
-                height: 3.35em;
-                line-height: 3.885em;
+                height: 1.5em;
+                line-height: 1.555em;
                 opacity: 0;
                 position: relative;
                 top: 0;
-                width: 3.35em;
+                width: 1.5em;
             }
 
+                
                 #header nav li:nth-child(1) {
                     -moz-animation-delay: 2.5s;
                     -webkit-animation-delay: 2.5s;
@@ -396,17 +401,18 @@
                     border-radius: 100%;
                     border: solid 1px #424242;
                     display: block;
-                    font-size: 1.75em;
-                    height: 2.5em;
-                    line-height: 2.5em;
+                    font-size: 1.5em;
+                    height: 1.5em;
+                    line-height: 1.5em;
                     position: relative;
                     text-align: center;
                     top: 0;
-                    width: 2.5em;
+                    width: 1.5em;
+                    
                 }
 
                 #header nav a:hover {
-                    font-size: 1.1em;
+                    font-size: 0.7em;
                 }
 
                     #header nav a:hover:before {
@@ -489,7 +495,7 @@
 
 }
 
-@media screen and (min-width: 641px) {              /*#############################################################################################*/
+@media screen and (min-width: 641px) {     /*#############################################################################################*/
 	
     #bg {
 
@@ -817,10 +823,11 @@
                     text-align: center;
                     top: 0;
                     width: 2.5em;
+                    margin: 0 .5em;
                 }
 
                 #header nav a:hover {
-                    font-size: 1.1em;
+                    font-size: .8em;
                 }
 
                     #header nav a:hover:before {
@@ -829,7 +836,7 @@
                     }
 
                 #header nav a:active {
-                    font-size: 0.95em;
+                    font-size: 0.90em;
                     background: none;
                 }
 
