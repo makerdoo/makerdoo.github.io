@@ -63,26 +63,27 @@
 <!--########################################################################################
 ##############################  insert rows and columns  ###################################
 ############################################################################################-->		
-
-	<div class="row">
-		<div class="small-10 medium-10 large-10 columns small-centered">
-			<img class="hero" src="img/manifesto.jpeg" alt="core beliefs" />
+	<div id="wrapper">
+		<div class="row" id="content">
+			<div class="small-10 medium-10 large-10 columns small-centered">
+				<img class="hero" src="img/manifesto.jpeg" alt="core beliefs" />
+			</div>
 		</div>
-	</div>
-		
+	
 	<hr class="drk-blue" />
 		
 	
 <!--############################################################################################
 ##############################  closing wrapper  ###############################################
 #############################################################################################-->
- <footer style="margin-top:0;padding-top:0;">
+ 			<footer  id="footer" style="margin-top:0;padding-top:0;">
 				
 					<div class="small-12 columns small-centered">
-						<p class="boom" style="margin-top:0;">STARDATE : <?php echo date('Y'); ?> NO Rights Reserved</p>
+						<p class="boom" style="margin-top:0;">STARDATE : &copy2015 NO Rights Reserved</p>
 					</div>
 					
 			</footer>
+			</div>
 		</div>
   		  <script src="js/vendor/fastclick.js"></script>
 		    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
@@ -97,7 +98,7 @@
 	     	<script src="js/animsition.js" type="text/javascript" charset="utf-8"></script>
 		    <script src="js/jquery.drawsvg.js" type="text/javascript" charset="utf-8"></script>
   		
-      <script>
+    <!--  <script>
       /*  $(document).foundation(); */
       </script>
       <script>	  
@@ -113,6 +114,7 @@
                   easing: 'linear'});
                 $svg1.drawsvg('animate');
     </script>
+	-->
 		<script>
       
       $(document).ready(function() {
