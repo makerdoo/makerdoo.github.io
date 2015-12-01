@@ -85,10 +85,11 @@ p  {
 a  {
 	color:#777;
 }
-a[href$=".com"] {
-	color:#777;
+a[href$=".com"], a[href$=".org"], a[href^="http"] {
+	color:#123456;
+	text-shadow:1px 1px 1px #111;
 }
-a[href$=".com"]:hover  {
+a:hover, a[href$=".com"]:hover, a[href$=".org"]:hover  {
 	color:rgb(247, 3, 0);
 }
 a.button  {
