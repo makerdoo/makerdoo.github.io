@@ -25,6 +25,13 @@ element.style  {
 	margin:5em 0;
 	/*background-color: #000;*/
 }
+
+.hero  {
+	height:100vh;
+	margin: .5em auto;
+	display:block;
+}
+
 .row  {
 	margin-top:0;
 	margin-bottom:0;
@@ -294,6 +301,9 @@ nav.top-bar  {
     background-color: transparent;
 	padding:0;
     
+}
+.top-bar  {
+	padding:0;
 }
 .top-bar ul {background-color: #000;}
 .top-bar ul, li  {
