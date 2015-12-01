@@ -1,0 +1,10 @@
+ul .pricing-table img  {
+	margin-top: 1em;
+	padding-top: 1em;
+	padding: 10px 10px;
+	background-color: red;
+}
+
+.bullet-item  {
+	text-align: center;
+}

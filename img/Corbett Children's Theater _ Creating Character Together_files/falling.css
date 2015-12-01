@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" prefix="og: http://ogp.me/ns#">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<!--<meta name="msvalidate.01" content="78F34A30E4ECB516CE0736DEB955390E" /> -->
+		<link href="cctlogofavicon.png" rel="shortcut icon" type="image/x-icon" />
+		<title>Corbett Children's Theater | Creating Character Together</title>
+		<link rel="canonical" href="http://corbettchildrenstheater.com/" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="css/normalize.css" type="text/css" />
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" type="text/css">
+		<link rel="stylesheet" href="css/foundation.css" type="text/css"/>
+        <script src="js/vendor/modernizr.js"></script>
+        <link rel="stylesheet" href="css/stylee.css" type="text/css" />
+        <link rel="stylesheet" href="css/app.css" type="text/css">
+        <link rel="stylesheet" href="css/falling.css" type="text/css">
+        <!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+        <meta name="googlebot" content="index,follow,noarchive,noodp" />
+	    <meta name="robots" content="index,follow,noarchive,noodp" />
+	    <meta name="keywords" content="children's theater, children's theatre, corbett oregon, troutdale oregon, plays, musicals, act, acting, sing, singing, dance, dancing" />
+		<meta name="description" content="CCT provides professional quality theater, performed by children for audiences of all ages. Check out our classes and workshops for dance, acting, improv...." />
+		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+	</head>
+    <body>
+    	    	<div class="sticky">
+
+			<nav class="top-bar" data-topbar role="navigation" data-options="sticky_on: large;is_hover: true; dropdown_autoclose: false;">
+				<ul class="title-area">
+					<li class="logo">
+						<a href="home.php"><img src="img/cct-logo.png" alt="logo" height="75" width="75"></a>
+
+					</li>
+				</ul>
+				<section class="top-bar-section left" data-options="is_hover: false; dropdown_autoclose: false;">  		
+						<div id="menu">
+							<ul>
+								<li><a href="#" id="bye-bye">Menu</a></li>
+								<li><a href="home.php" ><h3>&nbsp;&nbsp;Home |&nbsp;</h3></a></li>
+								<li class="has-dropdown"><a href="shows.php" ><h3>Shows |&nbsp;</h3></a>
+									<ul class="dropdown">
+										<!--<li><a href="upcoming.php" ><h4>Upcoming Season&nbsp;</h4></a></li>-->
+										<li><a href="past-shows.php" ><h4>Past Shows </h4></a></li>
+										<!--<li><a href="gallery.php" ><h4>Gallery </h4></a></li>-->
+									</ul>
+								</li>
+								<li class="has-dropdown"><a href="classes.php" ><h3>Classes |&nbsp;</h3></a>
+									<ul class="dropdown">
+							          <!--<li><a href="future-classes.php" ><h4>Future Classes&nbsp;</h4></a></li>-->
+							          <li><a href="past-classes.php" ><h4>Past Classes </h4></a>
+							          <!--<li><a href="why.php" ><h4>Why Classes? </h4></a>-->
+									  </li>
+							        </ul>
+								</li>
+
+								<li class="has-dropdown"><a href="auditions.php" ><h3>Auditions |&nbsp;</h3></a>
+							        <ul class="dropdown">
+							          <li><a href="tips.php" ><h4>Tips for Success </h4></a></li>
+							          <li><a href="forms.php" ><h4>Forms </h4></a>
+							          <!--<li><a href="future-ops.php" ><h4>Future Opportunities&nbsp;</h4></a>
+									  </li>-->
+							        </ul>
+						        </li>
+						        <li class="has-dropdown"><a href="about.php" ><h3>About | &nbsp;</h3></a>
+						        	<ul class="dropdown">
+						        	  <li><a href="in-the-news.php" ><h4>In The News</h4></a>
+						        	  <li><a href="mission.php" ><h4>Our Mission </h4></a></li>
+									  <li><a href="contacts.php" ><h4>Contacts&nbsp;</h4></a></li>
+						        	  <li><a href="boardmembers.php" ><h4>Board of Trustees&nbsp;</h4></a></li>
+							        <!--  <li><a href="venue.php" ><h4>Venue</h4></a>  -->
+							        <!--  <li><a href="staff.php" ><h4>Artistic Staff</h4></a>  -->
+						        	</ul>
+						        </li>
+							</ul>
+						</div>  
+				</section>
+			</nav>
+			<br>
+		</div>
+				<div class="container-blk" id="next-up1">
+			
+			<header>
+					
+					<hr class="stylee4">
+
+					
+					<div class="banner-bg" style="text-align:center;width:100%;">
+						<img src="img/CCT-goodbanner-1.jpg" alt="coolest broken banner" style="max-height:300px;width:auto;">
+
+					</div>	
+				
+			</header>
+		</div>
+		<div class="container">
+			<!--##########################one###################################-->
+			<div class="row cust-pgbg top-pad panel" id="next-up" data-equalizer style="min-width:100%;padding-top:0;margin-top:0;height:auto;">
+					<div class="small-12 medium-12 large-4 columns group" data-equalizer-watch>
+						
+						<br>
+						<hr class="drk-blue">
+						<div>
+							<h2 class="boom">CCT would like to thank</h2>
+							<br>
+							<div class="small-12 columns small-centered">
+								
+							     	<a href="http://www.artalacartenw.com/" title="http://www.artalacartenw.com/" class="boom centered-img" target="_blank"><img class="shadowed" src="img/artalacarte-logo.jpg" alt="Art ala Carte Logo" /></a>
+							 		
+								
+						    </div>
+						
+						    <h5 class="boom">for generously hosting the Pop Up fundraiser on our behalf! <br> Words cannot express our gratitude!</h5>
+
+						</div>
+							<hr class="drk-blue">
+							<div class="small-12 columns small-centered">
+							
+								<a class="boom centered-img" href="past-shows.php#fresh"><img class="shadowed" src="img/seussical/seussical-th(34).jpg" alt="Our Most Recent Production" /></a>
+								<br>
+								<p class="boom">Our Most Recent Production: Seussical The Musical!</p>
+							<hr class="drk-blue">
+							</div>											
+                    </div>
+		    <!--###########################  two  ##################################-->        
+					<br>
+					<div class="small-12 medium-12 large-4 columns bordered group" data-equalizer-watch>
+						<br>
+						<a href="shows.php#december"><h4 class="important fade-in">Our Winter Production</h4></a>
+					<br>
+					<div class="small-10 columns small-centered group">
+						<a href="shows.php#december"><img class="centered-img" src="img/posters/WonderfulLifePosterFinal-th.jpg" alt="It's a Wonderful Life, A Live Radio Play" /></a>
+				    </div>
+				    <br>
+						<h4 class="boom"><span class="strong">It's a Wonderful Life, A Live Radio Play</span> </h4>
+						<h5 class="boom"><span class="strong">Directed by: Angel Williams</span></h5>
+						<h5 class="boom"><span class="strong">Production Manager: Adam Bertsch</span></h5>
+						<p class="boom"><em>December 11th - 13th & 18th - 20th</em></p>
+					<br>
+						<h4 class="boom fade-in red"><a class="red" href="shows.php#december">Click Here For Showtimes And Info</a></h4>
+					</div>
+	            	<!--##########################three###################################-->
+					<div class="small-12 medium-12 large-4 columns group" data-equalizer-watch >
+					
+						
+						<hr class="drk-blue">
+						<h4 class="boom fade-in red"><a class="red" href="auditions.php" >*New audition opportunities.  Don't miss out!*</a></h4>
+						<br>
+						<p class="boom">Carolers for <em>"It's a Wonderful Life: A Radio Play"</em><br><em>"Fiddler On The Roof"</em> in March!
+						<br>
+						<hr class="drk-blue">
+						<br>
+						<a href="#" data-reveal-id="myModal-2">
+					 	<h4 class="boom">Volunteer</h4>
+					    <h6 class="boom">Make a difference at CCT!</h6>
+					 	<p>If you have time and skills (or a desire to learn) we can use you,<br> adult or student...
+		      			<br>
+		      			Volunteer to help with a production today!
+		      			<br>
+		      			<span class="fade-in" style="color:rgb(80, 215, 254)">[learn more]</span></p></a>
+		      			<br>
+		      			<hr class="drk-blue">
+		      			<br>
+					</div>
+
+					<div id="myModal-2" class="reveal-modal" data-reveal aria-labelledby="myModal-2" aria-hidden="true" role="dialog">
+						<h3 class="boom" id="modal-title">Volunteer</h3>
+	                 <h4 class="boom">Make a difference at CCT!</h4>
+		      			<p>If you have time and skills (or a desire to learn) we can use you, adult or student!  Volunteer to help with a production.  Each actor’s family is required to volunteer 10 hours during the production time and 2 hours for the post production strike.</p>
+		      			<h5>Production Volunteer Jobs:</h5>
+		      			<ul>
+		      				<li>Costume Crew – shopping for costumes, sewing, gluing, laundering.</li>
+		      				<li>Set Crew – design, build, paint, strike.</li>
+		      				<li>House Crew – usher, box office, concessions.</li>
+		      				<li>Tech Crew – sound and light</li>
+		      				<li>Music Crew – band and vocal coaches</li>
+		      				<li>Publicity</li>
+		      			</ul>
+		      			<h5>General Volunteer Jobs:</h5>
+		      			<ul>
+		      				<li>Cleaning Crew – would your family consider adopting CCT for a month to help?</li>
+		      				<li>Organizing Crew – costume room, gym, tech equipment.</li>
+		      				<li>Facility Crew – take a small load to the dump.</li>
+		      				<li>Publicity & Marketing – regularly submit press releases.</li>
+		      				<li>Hospitality Crew – supply bottled water on a regular basis, provide snacks for work parties and events.</li>
+		      				<li>Board of Trustees – Each term is a 2 year position.</li>
+		      			</ul>
+
+
+		      		<a class="close-reveal-modal" aria-label="Close">&#215;</a> 
+					</div>
+			</div>
+			<br>
+			<br>			   
+            <div class="row" data-equalizer>
+            	<div class="small-12 medium-4 large-4 columns">
+            		<div class="panel" data-equalizer-watch style="text-align:center;">
+			      		<h3>CCT is committed to</h3>
+											
+							<h4 class="fade-in"><a href="#" data-reveal-id="myModal-nurt">Nurturing</a></h4>
+							<div id="myModal-nurt" class="reveal-modal" data-reveal aria-labelledby="myModal-nurt" aria-hidden="true" role="dialog">
+								<h1>Nurturing</h1>
+                         
+								<p>CCT exists for the youth of eastern Multnomah County. Period. It doesn't get any more basic 
+								than that.</p>
+								<p>CCT is staffed 100% by volunteers who give their time for the benefit of the kids. We strive to 
+								provide a safe place for the youth of East County to stretch their wings in all areas of the theatre 
+								arts, regardless of who they are or where they come from.</p>
+								<p>At CCT we believe every student not only has value, but great value. As a result we work to 
+								nurture every young person with a goal of helping each one recognize their potential.
+								This also includes working with the youth to help them develop the tools they need to overcome 
+								the challenges of life – and the rigors of the theatre are a great place to learn such an important 
+								life lesson!</p>
+								<p>It is our desire that any young person can find a place at CCT, regardless of their ambitions in 
+								the theatre, where they can grow as an individual and become better equipped for the demands 
+								of life.</p>
+								<p>You see, the theatre is a fun way to learn skills that will serve the individual for life. Things like:</p>
+								<ul>
+								<li><b>Teamwork -</b> A theatrical production only comes together only when a group of people of 
+								varying skills learn to appreciate what the other brings to the table and begins to 
+								collaborate.</li>
+								<li><b>How to meet a deadline –</b> The curtain rises on time. There are no excuses. In order to 
+								make certain this happens youth must learn to prioritize.</li>
+								<li><b>Problem Solving -</b> Things go wrong during performances, and it is up to the performers 
+								and crew to come up with a way to fix it in such a way that the audience is never aware 
+								of it.</li>
+								<li><b>To Think Creatively –</b> See above – there is no set way to fix things in the theatre.</li>
+								<li><b>To Think Analytically –</b> In order to turn a script in a show the participants must 
+								understand what the author intended with each element of the show.</li>
+								<li><b>The Value of Hard Work –</b> Memorization, sometimes many pages. Long nights of 
+  							    practice are obvious, but this also includes all the technical trades that come together to 
+								create a theatre from construction to graphic arts to lighting.</li>
+								<li><b>Increased Literacy –</b> In the theatre, youth are challenged to read more than in just about 
+								any other discipline and the exposure ranges from things like Dr. Seuss to more serious 
+								works such as Flowers for Algernon to classic literature such as Oliver Twist, The 
+								Scarlet Pimpernel, and Little Women.</li>
+								<li><b>Public Speaking –</b> The practice in public speaking that comes natural as a result of 
+								taking a role on stage is invaluable.</li>
+							    <li><b>Confidence –</b> The theatre stretches and challenges every participant and as youth make 
+								new discoveries about themselves confidence becomes the byproduct.</li>
+							</ul>
+								<p>The list goes on, but you get the idea.  At CCT we are dedicated to seeing each individual 
+								bloom into a productive member of society. Some will go on in the theatre, but some will not.  
+								Our alumni now range from theatre professionals to doctors – and we couldn't be more proud of 
+								all their accomplishments!</p>
+
+							<a class="close-reveal-modal" aria-label="Close">&#215;</a>
+						    </div>
+
+							<h4 class="fade-in"><a href="#" data-reveal-id="myModal-inst">Instructing</a></h4>
+							<div id="myModal-inst" class="reveal-modal" data-reveal aria-labelledby="myModal-inst" aria-hidden="true" role="dialog">
+
+							<h1>Instructing</h1>
+		                         <p>The performing arts are about much more than simply perfoming. Portraying character is 
+								more than pretending to be the character, it entails 
+								understanding why the character would make the choices he or 
+								she makes.&nbsp; As such it is an intro to psychology in the 
+								same way that learning to dance provides a gateway to a lifetime of coordination and fitness.</p>
+								 <p>Likewise, vocal instruction focuses on articulation, breath control, posture and numerous other disciplines that carry a lifetime of benefits including increased confidence, a firm foundation upon which one might be able to engage in public speaking, improved posture, and improved circulation due to more complete oxygenation in the blood stream.</p>
+
+								<a class="close-reveal-modal" aria-label="Close">&#215;</a>
+						    </div>
+
+							<h4 class="fade-in"><a href="#" data-reveal-id="myModal-dev">Developing</a></h4>
+							<div id="myModal-dev" class="reveal-modal" data-reveal aria-labelledby="myModal-dev" aria-hidden="true" role="dialog">
+								<h1>Developing</h1>
+                         <p>What do theater kids learn? You might be surprised to learn that the primary things kids learn in a children’s theater are life skills like Teamwork, Problem Solving, Focus, and the Ability to Meet Deadlines.  Sure they learn to sing, dance, and act, and those are useful skills, but the ability to think on your feet and confidently face a room full of people are skills that every individual can benefit from.</p>
+                         <p>Think of it this way; in the theater a performer is portraying a character who reacts differently from the way they naturally react to the same stimuli and they have to do it with a roomful of people watching them, while knowing the director is evaluating their performance and at the same time that they can see the chaos that is taking place backstage while...</p>
+                         <h2>More About What CCT Youth Learn Coming Soon</h2>
+								<a class="close-reveal-modal" aria-label="Close">&#215;</a>
+						    </div>
+
+							 and 
+
+							<h4 class="fade-in"><a href="#" data-reveal-id="myModal-promo">Promoting</a></h4>
+							<div id="myModal-promo" class="reveal-modal" data-reveal aria-labelledby="myModal-promo" aria-hidden="true" role="dialog">
+								<h1>Promoting</h1>
+                         <p>... Literacy in the East County.  A theatre arts education gets kids reading! Perhaps your child becomes interested because they love the fantasy of Tom Sawyer, Pippi Longstocking, or Charlette’s Web, but over time they are introduced to Charles Dickens (Oliver!, A Christmas Carol), and Victor Hugo (Les Miserables) or George Orwell (Animal Farm) and in the process they discover that reading is fun and can open new worlds of possibilities to them!</p>
+                         <p>At Corbett Children’s Theater we offer multiple opportunities for the kids every year and every show is based on the written word.  Some are based on classic characters from great fiction like Alice in Wonderland, or Wizard of Oz.  Some are plays and musicals that were not adapted from literature, but either way children have the opportunity to discover the fun and wonder…</p>
+                         <h2>More About CCT&#39;s Role in Promoting Literature in the East County Coming Soon!</h2>
+								<a class="close-reveal-modal" aria-label="Close">&#215;</a>
+						    </div>
+						    
+							<h5>the youth of Eastern Multnomah county.</h5>
+							<br />
+							<p>Click above to learn more about how CCT uses the theatre to develop the youth of our community.</p>
+		                
+		            </div>    
+            	</div>
+
+			    <div class="large-8 medium-8 small-12 columns" style="text-align:center;">
+
+			      	<div class="panel"  data-equalizer-watch style="text-align:center;">
+			      								
+						<h3 style="text-decoration:underline;">The Letter That Started It All</h3>
+						<p>
+		                Have you ever had something you needed to do… but you just kept avoiding the task?
+
+						That's how I feel about this letter. I just don’t want to admit that I have to write it. Putting 
+
+						these words on paper is painful, frustrating, and frightening.
+
+						But here they are: <span style="font-weight:900;">This coming fall may well cue the…</span></p>
+
+             			<h4><a href="donate.php#specialnews" class="boom" target="_self" style="text-align:center;"><span style="color:rgb(80, 215, 254)">Learn More</span></a></h4>
+             			<br />
+		                <h4>Help Provide Opportunities for the Youth of Eastern Multnomah County.</h4>
+		               
+		                <a href='https://www.givlet.org/donate/e0gi/' class='on-checkout'> <img src='https://ordernow_prod.s3.amazonaws.com/img/TheGivletButton.png' alt="givlet button" /> </a> <script type='text/javascript' src='https://ordernow_prod.s3.amazonaws.com/js/givlet-widget-latest.js'> </script>
+		                <br>
+		                
+		                
+		            </div>    
+				</div>
+			</div>
+			<a href="#">[above]</a>
+		</div>	
+
+
+		<div class="footer-banner">
+			  <h2>Previous Productions</h2>
+		      <h3>Since it came into being in 1998 CCT has produced full scale theatrical productions of a wide variety of musicals, plays, and even some video production 
+			  opportunities!</h3>
+
+			<div class="bg-container">
+				<div class="bg" style="overflow-x: hidden !important;"></div>
+			</div>
+		</div>
+		
+		<footer>
+			
+				<div class="contact-icons-text">
+						<p><a href="mailto:info@corbettchildrenstheater.com" title="Send us an email">Corbett Children's Theater | Creating Character Together</a><br>PO Box 133, Corbett, OR 97019 | 971-271-3255<br>&copy;2015 All Rights Reserved</p>
+				</div>
+				<!--
+				<div class="small-6 columns group right end">
+						<a href="img/QRcode.svg"><img src="img/QRcode.svg" title="Donate!" alt="Help the Kids!"></a>
+				</div>
+				-->
+		</footer>
+  		<script src="js/vendor/jquery.js"></script>
+		<script src="js/vendor/fastclick.js"></script>
+		<script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/foundation/foundation.js"></script>
+		<script src="js/foundation/foundation.topbar.js"></script>
+  		<script src="js/foundation/foundation.reveal.js"></script>
+  		<script src="js/foundation/foundation.equalizer.js" type="text/javascript"></script>
+  		
+  		<script src="js/foundation/foundation.clearing.js"></script>
+  		<script src="js/app.js" type="text/javascript" charset="utf-8"></script>
+  		
+		<script>
+ 	 		$(document).foundation();
+		</script>
+		
+	</body>
+</html>			
+			

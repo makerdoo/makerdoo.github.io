@@ -1,0 +1,16 @@
+.grayback  {
+	background-color:#ccc;
+	padding:15px 10px 0px 10px;
+}
+.graybacked  {
+	background-color:#ccc;
+}
+img.thumbnail .client  {
+	padding-top:15px;
+}
+#no-bottom  {
+	border-bottom: none;
+	border-top: solid 1px #222;
+	border-left: solid 1px #222;
+	border-right: solid 1px #222;
+}
