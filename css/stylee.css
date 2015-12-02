@@ -279,7 +279,7 @@ footer{
 footer p  {
 	color:#424242;
 	background-color: #777;
-	opacity: 0.75;
+	opacity: 0.95;
 	overflow: hidden;
 } 
 footer p a  {
@@ -782,6 +782,10 @@ iframe  {
 #movie-banner  {
 	background-image:url('css/images/trimtimelapse.mp4');
 	z-index:0;
+}
+video  {
+	margin:0;
+	padding:0;
 }
 
 img  {
